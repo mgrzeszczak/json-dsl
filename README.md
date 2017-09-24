@@ -4,6 +4,8 @@ Kotlin JSON DSL-based builder for Gson.
 
 # How to use
 
+Requires Gson at runtime.
+
 ```
 val obj : JsonObject = Json.obj {
             "name" to "Jon"
@@ -20,6 +22,10 @@ val obj : JsonObject = Json.obj {
             )
         }
 ```
+
+# Download
+
+[![](https://jitpack.io/v/mgrzeszczak/json-dsl.svg)](https://jitpack.io/#mgrzeszczak/json-dsl)
 
 # License
 ```

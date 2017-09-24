@@ -21,8 +21,9 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.code.gson:gson:2.8.2'
+    compileOnly 'com.google.code.gson:gson:2.8.2'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    testCompile 'com.google.code.gson:gson:2.8.2'
     testCompile "junit:junit:4.12"
 
 }
